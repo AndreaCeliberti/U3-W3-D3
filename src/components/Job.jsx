@@ -39,7 +39,6 @@ const Job = ({ data }) => {
             }
           />
         )}
-
         <Link to={`/${data.company_name}`}>{data.company_name}</Link>
       </Col>
       <Col xs={6}>

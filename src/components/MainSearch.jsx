@@ -39,7 +39,7 @@ const MainSearch = () => {
           <Form onSubmit={handleSubmit}>
             <Form.Control type="search" value={query} onChange={handleChange} placeholder="type and press Enter" />
           </Form>
-          <Link to="./favouriteList">to Favourites</Link>
+          <Link to="./favouritelist">to Favourites</Link>
         </Col>
         <Col xs={10} className="mx-auto mb-5">
           {jobs.map((jobData) => (
