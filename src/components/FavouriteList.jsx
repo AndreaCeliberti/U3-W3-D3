@@ -27,6 +27,7 @@ const FavouriteList = () => {
                   })
                 }
               />
+              <Link to={fav}>{fav}</Link>
             </ListGroupItem>
           ))}
         </ListGroup>
