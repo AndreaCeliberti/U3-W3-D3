@@ -27,7 +27,7 @@ const FavouriteList = () => {
                   })
                 }
               />
-              <Link to={fav}>{fav}</Link>
+              <Link to={"/" + fav}>{fav}</Link>
             </ListGroupItem>
           ))}
         </ListGroup>
